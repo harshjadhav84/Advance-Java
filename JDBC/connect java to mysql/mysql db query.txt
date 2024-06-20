@@ -1,0 +1,18 @@
+	SHOW databases;
+
+	CREATE DATABASE mydatabase;
+
+	USE  mydatabase;
+
+	CREATE TABLE EMPLOYEES(
+		id int primary key,
+		name varchar(255),
+		job_title varchar(255),
+		salary double);
+
+	INSERT INTO EMPLOYEES(id, name, job_title, salary) values(
+		1, "Kunal", "Software Developer", 75000.0);
+	INSERT INTO EMPLOYEES(id, name, job_title, salary) values(
+		1, "Kunal", "Software Developer", 75000.0);
+
+	
